@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="content-buttons">
+            <button onclick="showTodos()" id="btn-load-Todos">Carregar Todos</button>
+            <button onclick="showUser()" id="btn-load-users">Carregar usuários</button>
+            Carregar usuário ID: <input type="number" placeholder="Digite um ID de usuário" id="userID"/><button onclick="showUserID()" id="btn-search">Pesquisar</button>
+        </div>
+        <div class="content-body">
+            <ul id="list">
+            </ul>
+        </div>
+    </div>
+    
+    <script src="classes05.js"></script>
+    <script src="dados05.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
